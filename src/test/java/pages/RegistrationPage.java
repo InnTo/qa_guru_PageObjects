@@ -21,7 +21,6 @@ public class RegistrationPage {
             stateInput = $("#state"),
             cityInput = $("#city"),
             submitClick = $("#submit"),
-            responseTable = $(".table-responsive"),
             calendarInput = $("#dateOfBirthInput");
 
     private ElementsCollection subjectsSelect = $$(".subjects-auto-complete__option");
