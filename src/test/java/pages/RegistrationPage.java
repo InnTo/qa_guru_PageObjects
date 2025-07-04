@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.executeJavaScript;
 
 public class RegistrationPage {
 
-    private SelenideElement firstNameInput = $("#firstName"),
+    private final SelenideElement firstNameInput = $("#firstName"),
             lastNameInput = $("#lastName"),
             userEmailInput = $("#userEmail"),
             userNumberInput = $("#userNumber"),
@@ -23,7 +23,7 @@ public class RegistrationPage {
             submitClick = $("#submit"),
             calendarInput = $("#dateOfBirthInput");
 
-    private ElementsCollection subjectsSelect = $$(".subjects-auto-complete__option");
+    private final ElementsCollection subjectsSelect = $$(".subjects-auto-complete__option");
 
     CalendarComponent calendarComponent = new CalendarComponent();
 

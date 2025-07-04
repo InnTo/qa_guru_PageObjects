@@ -4,24 +4,10 @@ package tests;
 import org.junit.jupiter.api.Test;
 import pages.RegistrationPage;
 
+import static tests.TestData.*;
+
 
 public class RegistrationFormTests extends TestBase {
-
-    String firstName = "Test";
-    String lastName = "TestLastName";
-    String userEmail = "Test@test.ru";
-    String gender = "Male";
-    String number = "8961530834";
-    String month = "April";
-    String year = "2002";
-    String day = "30";
-    String subject = "Maths";
-    String hobbies = "Sports";
-    String picture = "test.jpg";
-    String currentAddress = "Current test address";
-    String state = "Uttar Pradesh";
-    String city = "Agra";
-
 
     RegistrationPage registrationPage = new RegistrationPage();
 
